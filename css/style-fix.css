@@ -1,0 +1,45 @@
+/* Form Input Styling */
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: rgba(20, 20, 20, 0.8);
+    border: 1px solid var(--primary-color);
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    box-shadow: 0 0 5px rgba(0, 255, 65, 0.3);
+    transition: all 0.3s ease;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+}
+
+#contactForm label {
+    color: var(--primary-color);
+    font-family: 'Courier New', monospace;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Fix Timeline Items Visibility */
+.timeline-item {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+
+/* Override any JS animations that might hide timeline items */
+.timeline-item.show {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+
+/* Ensure timeline content is visible */
+.timeline-content {
+    opacity: 1 !important;
+}
