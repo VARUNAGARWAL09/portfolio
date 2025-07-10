@@ -1,4 +1,4 @@
-# 💻 Varun's Hacker-Style Portfolio
+# 💻 Varun's Portfolio
 
 [![Netlify Status](https://img.shields.io/badge/netlify-deployed-success)](https://varunagarwal.netlify.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-00ff41?style=flat&logo=github&logoColor=white)](https://github.com/VARUNAGARWAL09/portfolio)
